@@ -1,0 +1,6 @@
+<li id="<%= dom_id item %>" class="my-5">
+  <div class="flex items-center">
+    <%= item.text %>
+    <%= button_to "Delete", item, method: :delete, class: "bg-red-500 text-white px-3 py-2 rounded-lg ml-2" %>
+  </div>
+</li>
